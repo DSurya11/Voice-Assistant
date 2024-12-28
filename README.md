@@ -1,10 +1,7 @@
-Express.js Template
-This is a simple Express.js template that can be used as a starting point for creating web applications with Node.js and Express.
+This project is a voice assistant that can take voice input from the microphone, convert it into text using speech recognition, and then search the text using the GroqCloud API to provide relevant information.
 
 Features
-Provides a basic Express.js setup with routing and middleware support.
-Uses EJS as the template engine.
-Includes a simple test suite using Mocha and Chai.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+     1) Speech recognition to convert voice input to text.
+     2)Integration with GroqCloud API to search for information based on the converted text.
+     3)Text-to-speech functionality to read out the results.
+     4)Provides real-time search results for queries like "What is ML?" or "What is AI?"
